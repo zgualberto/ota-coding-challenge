@@ -117,7 +117,7 @@ describe('NoteController', () => {
     expect(await service.show({ id: 1 })).toStrictEqual(expectedResult);
   });
 
-  it('should be able to show a note', async () => {
+  it('should be able to remove a note', async () => {
     const expectedResult: any = {
       result: {
         noteID: 4,
